@@ -158,15 +158,6 @@ export default function Contact() {
               />
             </div>
 
-            {/* reCAPTCHA */}
-            <div className="flex justify-center">
-              <ReCAPTCHA
-                ref={recaptchaRef}
-                size="invisible"
-                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ''}
-              />
-            </div>
-
             {/* Status Messages */}
             {status === 'success' && (
               <div className="bg-green-500/10 border border-green-500/50 text-green-400 px-4 py-3 rounded-lg">
@@ -179,6 +170,15 @@ export default function Contact() {
                 {errorMessage}
               </div>
             )}
+
+            {/* reCAPTCHA */}
+            <div className="flex justify-center">
+              <ReCAPTCHA
+                ref={recaptchaRef}
+                size="invisible"
+                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ''}
+              />
+            </div>
 
             {/* Submit Button */}
             <button

@@ -22,7 +22,7 @@ export default function Hero() {
       opacity: 1,
       transition: {
         duration: 0.6,
-        ease: [0.22, 1, 0.36, 1]
+        ease: [0.22, 1, 0.36, 1] as any
       }
     }
   };
@@ -35,7 +35,7 @@ export default function Hero() {
       transition: {
         duration: 0.5,
         delay: i * 0.1 + 0.8,
-        ease: [0.22, 1, 0.36, 1]
+        ease: [0.22, 1, 0.36, 1] as any
       }
     })
   };
