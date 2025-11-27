@@ -41,8 +41,10 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-8">
             {[
               { id: 'features', label: 'Features' },
+              { id: 'integrations', label: 'Integrations' },
               { id: 'how-it-works', label: 'How it Works' },
               { id: 'benefits', label: 'Benefits' },
+              { id: 'partners', label: 'Partners' },
             ].map((item) => (
               <button
                 key={item.id}

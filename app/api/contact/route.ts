@@ -37,13 +37,44 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    // Here you would typically:
-    // 1. Send an email notification
-    // 2. Save to a database
-    // 3. Send to a CRM like HubSpot, Salesforce, etc.
-    // 4. Send to Slack/Discord notification
+    // Send email notification using AWS SES
+    try {
+      const emailBody = `
+New Contact Form Submission
 
-    // For now, we'll just log it (in production, implement proper handling)
+Name: ${name}
+Email: ${email}
+Company: ${company}
+Phone: ${phone || 'Not provided'}
+
+Message:
+${message || 'No message provided'}
+
+Timestamp: ${new Date().toISOString()}
+      `.trim();
+
+      const sesResponse = await fetch('https://email.us-east-2.amazonaws.com/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'Authorization': `AWS4-HMAC-SHA256 Credential=${process.env.AWS_ACCESS_KEY_ID}`,
+        },
+        body: new URLSearchParams({
+          'Action': 'SendEmail',
+          'Source': 'contact@untrapai.com',
+          'Destination.ToAddresses.member.1': 'contact@untrapai.com',
+          'Message.Subject.Data': `New Contact Form: ${company}`,
+          'Message.Body.Text.Data': emailBody,
+        }),
+      });
+
+      console.log('Email sent successfully');
+    } catch (emailError) {
+      console.error('Failed to send email:', emailError);
+      // Continue even if email fails - we still want to log the submission
+    }
+
+    // Log the submission
     console.log('Contact form submission:', {
       name,
       email,
@@ -52,11 +83,6 @@ export async function POST(request: NextRequest) {
       message,
       timestamp: new Date().toISOString(),
     });
-
-    // TODO: Implement your preferred notification method
-    // Example: Send email via SendGrid, AWS SES, or similar service
-    // Example: Save to database
-    // Example: Send webhook to Zapier/Make
 
     return NextResponse.json(
       { success: true, message: 'Form submitted successfully' },

@@ -1,0 +1,804 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name='robots' content='noindex, follow' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO Premium plugin v26.2 (Yoast SEO v26.4) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found - Innovation Factory</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - Innovation Factory" />
+	<meta property="og:site_name" content="Innovation Factory" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://innovationfactory.ca/#website","url":"https://innovationfactory.ca/","name":"Innovation Factory","description":"Ontario&#039;s Business Accelerator for Startups","publisher":{"@id":"https://innovationfactory.ca/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://innovationfactory.ca/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-CA"},{"@type":"Organization","@id":"https://innovationfactory.ca/#organization","name":"Innovation Factory","url":"https://innovationfactory.ca/","logo":{"@type":"ImageObject","inLanguage":"en-CA","@id":"https://innovationfactory.ca/#/schema/logo/image/","url":"https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Logo_colour-1.png","contentUrl":"https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Logo_colour-1.png","width":2037,"height":801,"caption":"Innovation Factory"},"image":{"@id":"https://innovationfactory.ca/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/innovationfactory.ca","https://x.com/if_hamont","https://www.linkedin.com/company/innovation-factory.ca","https://www.instagram.com/innovationfactory_if/","https://www.youtube.com/channel/UCrd58YhUOmVGbC2AlzNLTGw"],"description":"Innovation Factory is a not-for-profit business accelerator and a regional innovation centre, serving as the catalyst for technology innovation in Southern Ontario since 2010. Providing business advisory services, training, mentorship, and strategic connections, Innovation Factory helps drive market adoption, revenues, investment, jobs and leverage of intellectual property. Innovators can also access sector-specific resources including exclusive smart transportation test environments and data and formal life science and health innovation ecosystems. Funded by the Government of Ontario, Innovation Factory helps Ontario-based innovators and entrepreneurs clear commercialization hurdles — accelerating the growth of companies so that they can compete and succeed globally and create high-quality jobs in our province.","email":"info@innovationfactory.ca","telephone":"905-667-2611","numberOfEmployees":{"@type":"QuantitativeValue","minValue":"11","maxValue":"50"},"diversityStaffingReport":"https://innovationfactory.ca/careers/"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//cdn.elementor.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Innovation Factory &raquo; Feed" href="https://innovationfactory.ca/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/innovationfactory.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<link rel='stylesheet' id='mec-select2-style-css' href='https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/packages/select2/select2.min.css?ver=7.27.0' media='all' />
+<link rel='stylesheet' id='mec-font-icons-css' href='https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/css/iconfonts.css?ver=7.27.0' media='all' />
+<link rel='stylesheet' id='mec-frontend-style-css' href='https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/css/frontend.min.css?ver=7.27.0' media='all' />
+<link rel='stylesheet' id='accessibility-css' href='https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/css/a11y.min.css?ver=7.27.0' media='all' />
+<link rel='stylesheet' id='mec-tooltip-style-css' href='https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/packages/tooltip/tooltip.css?ver=7.27.0' media='all' />
+<link rel='stylesheet' id='mec-tooltip-shadow-style-css' href='https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/packages/tooltip/tooltipster-sideTip-shadow.min.css?ver=7.27.0' media='all' />
+<link rel='stylesheet' id='featherlight-css' href='https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/packages/featherlight/featherlight.css?ver=7.27.0' media='all' />
+<link rel='stylesheet' id='mec-custom-google-font-css' href='https://fonts.googleapis.com/css?family=Ubuntu%3A300%2C+300italic%2C+regular%2C+italic%2C+500%2C+500italic%2C+700%2C+700italic%2C+%7COpen+Sans%3A700italic%2C+700italic%2C+700italic%2C+700italic%2C+700italic%2C+700italic%2C+700italic%2C+700italic%2C+700italic%2C+700italic%2C+&#038;subset=latin%2Clatin-ext&#038;ver=7.27.0' media='all' />
+<link rel='stylesheet' id='mec-lity-style-css' href='https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/packages/lity/lity.min.css?ver=7.27.0' media='all' />
+<link rel='stylesheet' id='mec-general-calendar-style-css' href='https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/css/mec-general-calendar.css?ver=7.27.0' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://innovationfactory.ca/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3' media='all' />
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='ea11y-widget-fonts-css' href='https://innovationfactory.ca/wp-content/plugins/pojo-accessibility/assets/build/fonts.css?ver=3.8.1' media='all' />
+<link rel='stylesheet' id='ea11y-skip-link-css' href='https://innovationfactory.ca/wp-content/plugins/pojo-accessibility/assets/build/skip-link.css?ver=3.8.1' media='all' />
+<link rel='stylesheet' id='secure-hello-style-css' href='https://innovationfactory.ca/wp-content/themes/secure-hello/style.css?ver=6.8.3' media='all' />
+<link rel='stylesheet' id='hello-elementor-css' href='https://innovationfactory.ca/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.4.5' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://innovationfactory.ca/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.4.5' media='all' />
+<link rel='stylesheet' id='hello-elementor-header-footer-css' href='https://innovationfactory.ca/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.4.5' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://innovationfactory.ca/wp-content/uploads/elementor/css/custom-frontend.min.css?ver=1763490312' media='all' />
+<link rel='stylesheet' id='widget-social-icons-css' href='https://innovationfactory.ca/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='e-apple-webkit-css' href='https://innovationfactory.ca/wp-content/uploads/elementor/css/custom-apple-webkit.min.css?ver=1763490312' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://innovationfactory.ca/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='widget-nav-menu-css' href='https://innovationfactory.ca/wp-content/uploads/elementor/css/custom-pro-widget-nav-menu.min.css?ver=1763490313' media='all' />
+<link rel='stylesheet' id='widget-search-form-css' href='https://innovationfactory.ca/wp-content/plugins/elementor-pro/assets/css/widget-search-form.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://innovationfactory.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://innovationfactory.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='e-sticky-css' href='https://innovationfactory.ca/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://innovationfactory.ca/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInUp-css' href='https://innovationfactory.ca/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='e-popup-css' href='https://innovationfactory.ca/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://innovationfactory.ca/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.44.0' media='all' />
+<link rel='stylesheet' id='elementor-post-5-css' href='https://innovationfactory.ca/wp-content/uploads/elementor/css/post-5.css?ver=1763490313' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css' href='https://innovationfactory.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css' href='https://innovationfactory.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.33.0' media='all' />
+<link rel='stylesheet' id='elementor-post-33-css' href='https://innovationfactory.ca/wp-content/uploads/elementor/css/post-33.css?ver=1763562534' media='all' />
+<link rel='stylesheet' id='elementor-post-141-css' href='https://innovationfactory.ca/wp-content/uploads/elementor/css/post-141.css?ver=1763502877' media='all' />
+<link rel='stylesheet' id='elementor-post-274-css' href='https://innovationfactory.ca/wp-content/uploads/elementor/css/post-274.css?ver=1763490447' media='all' />
+<link rel='stylesheet' id='elementor-post-26371-css' href='https://innovationfactory.ca/wp-content/uploads/elementor/css/post-26371.css?ver=1763490318' media='all' />
+<link rel='stylesheet' id='jquery-chosen-css' href='https://innovationfactory.ca/wp-content/plugins/jet-search/assets/lib/chosen/chosen.min.css?ver=1.8.7' media='all' />
+<link rel='stylesheet' id='jet-search-css' href='https://innovationfactory.ca/wp-content/plugins/jet-search/assets/css/jet-search.css?ver=3.5.15' media='all' />
+<link rel='stylesheet' id='eael-general-css' href='https://innovationfactory.ca/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.4.0' media='all' />
+<link rel='stylesheet' id='ecs-styles-css' href='https://innovationfactory.ca/wp-content/plugins/ele-custom-skin/assets/css/ecs-style.css?ver=3.1.9' media='all' />
+<link rel='stylesheet' id='elementor-post-187-css' href='https://innovationfactory.ca/wp-content/uploads/elementor/css/post-187.css?ver=1735895072' media='all' />
+<link rel='stylesheet' id='elementor-post-245-css' href='https://innovationfactory.ca/wp-content/uploads/elementor/css/post-245.css?ver=1742543690' media='all' />
+<link rel='stylesheet' id='elementor-post-389-css' href='https://innovationfactory.ca/wp-content/uploads/elementor/css/post-389.css?ver=1689683819' media='all' />
+<link rel='stylesheet' id='elementor-post-21642-css' href='https://innovationfactory.ca/wp-content/uploads/elementor/css/post-21642.css?ver=1692358095' media='all' />
+<link rel='stylesheet' id='elementor-post-25705-css' href='https://innovationfactory.ca/wp-content/uploads/elementor/css/post-25705.css?ver=1736505077' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-opensans-css' href='https://innovationfactory.ca/wp-content/uploads/elementor/google-fonts/css/opensans.css?ver=1755286724' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-ubuntu-css' href='https://innovationfactory.ca/wp-content/uploads/elementor/google-fonts/css/ubuntu.css?ver=1755286726' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://innovationfactory.ca/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' media='all' />
+<script src="https://innovationfactory.ca/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://innovationfactory.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://innovationfactory.ca/wp-includes/js/imagesloaded.min.js?ver=6.8.3" id="imagesLoaded-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.33.0" id="font-awesome-4-shim-js"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script src="https://www.googletagmanager.com/gtag/js?id=G-8NHMZD7SWV" id="google_gtagjs-js" async></script>
+<script id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["innovationfactory.ca"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "G-8NHMZD7SWV");
+</script>
+<script id="ecs_ajax_load-js-extra">
+var ecs_ajax_params = {"ajaxurl":"https:\/\/innovationfactory.ca\/wp-admin\/admin-ajax.php","posts":"{\"error\":\"404\",\"m\":\"\",\"p\":0,\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"name\":\"\",\"pagename\":\"\",\"page_id\":0,\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"category_name\":\"\",\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"all\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"search_columns\":[],\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"update_menu_item_cache\":false,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"post_type\":\"\",\"posts_per_page\":10,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"order\":\"DESC\"}"};
+</script>
+<script src="https://innovationfactory.ca/wp-content/plugins/ele-custom-skin/assets/js/ecs_ajax_pagination.js?ver=3.1.9" id="ecs_ajax_load-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/ele-custom-skin/assets/js/ecs.js?ver=3.1.9" id="ecs-script-js"></script>
+<link rel="https://api.w.org/" href="https://innovationfactory.ca/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://innovationfactory.ca/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.3" />
+<meta name="generator" content="Site Kit by Google 1.166.0" /><meta name="generator" content="Elementor 3.33.0; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Icon_colour-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Icon_colour.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Icon_colour.png" />
+<meta name="msapplication-TileImage" content="https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Icon_colour.png" />
+		<style id="wp-custom-css">
+			.mec-wrap h2 { padding-top: 1rem; }
+li {padding-bottom: 1rem;}
+.elementor img {border-radius: .5rem;}		</style>
+		<style>:root,::before,::after{--mec-heading-font-family: 'Ubuntu';--mec-paragraph-font-family: 'Open Sans';--mec-color-skin: #1074a2;--mec-color-skin-rgba-1: rgba(16,116,162,.25);--mec-color-skin-rgba-2: rgba(16,116,162,.5);--mec-color-skin-rgba-3: rgba(16,116,162,.75);--mec-color-skin-rgba-4: rgba(16,116,162,.11);--mec-primary-border-radius: ;--mec-secondary-border-radius: ;--mec-container-normal-width: 1200px;--mec-container-large-width: 1200px;--mec-content-color: #000000;--mec-fes-main-color: #40d9f1;--mec-fes-main-color-rgba-1: rgba(64, 217, 241, 0.12);--mec-fes-main-color-rgba-2: rgba(64, 217, 241, 0.23);--mec-fes-main-color-rgba-3: rgba(64, 217, 241, 0.03);--mec-fes-main-color-rgba-4: rgba(64, 217, 241, 0.3);--mec-fes-main-color-rgba-5: rgb(64 217 241 / 7%);--mec-fes-main-color-rgba-6: rgba(64, 217, 241, 0.2);</style><style>.mec-wrap .row {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+/* Removes strange padding in events carousel content ZJ */
+.mec-event-carousel-content {
+padding: 20px !important;
+}
+
+.mec-event-content p, .mec-event-content li {
+font-weight: 500 !important;
+font-family: 'Open Sans', Arial, sans-serif !important;
+}
+
+.mec-wrap :not(.elementor-widget-container)>p {font-weight: 500;}
+
+.mec-booking-button:hover {
+    color: #1074a2 !important;
+}
+
+.mec-wrap h2 {
+font-size:1.5em !important; 
+}
+.mec-wrap h3 {
+font-size:1.2em !important; 
+}
+</style></head>
+<body class="error404 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-secure-hello mec-theme-hello-elementor ally-default hello-elementor-default elementor-default elementor-kit-5 elementor-page-274">
+
+		<script>
+			const onSkipLinkClick = () => {
+				const htmlElement = document.querySelector('html');
+
+				htmlElement.style['scroll-behavior'] = 'smooth';
+
+				setTimeout( () => htmlElement.style['scroll-behavior'] = null, 1000 );
+			}
+			document.addEventListener("DOMContentLoaded", () => {
+				if (!document.querySelector('#content')) {
+					document.querySelector('.ea11y-skip-to-content-link').remove();
+				}
+			});
+		</script>
+		<nav aria-label="Skip to content navigation">
+			<a class="ea11y-skip-to-content-link"
+				href="#content"
+				tabindex="1"
+				onclick="onSkipLinkClick()"
+			>
+				Skip to content
+				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" role="presentation">
+					<path d="M18 6V12C18 12.7956 17.6839 13.5587 17.1213 14.1213C16.5587 14.6839 15.7956 15 15 15H5M5 15L9 11M5 15L9 19"
+								stroke="black"
+								stroke-width="1.5"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+					/>
+				</svg>
+			</a>
+			<div class="ea11y-skip-to-content-backdrop"></div>
+		</nav>
+
+		
+
+		<header data-elementor-type="header" data-elementor-id="33" class="elementor elementor-33 elementor-location-header" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-e09abac e-flex e-con-boxed e-con e-parent" data-id="e09abac" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-469a3ad elementor-shape-square e-grid-align-left elementor-hidden-mobile elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="469a3ad" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid" role="list">
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-f00345f" href="https://www.linkedin.com/company/innovation-factory.ca" target="_blank">
+						<span class="elementor-screen-only">Linkedin</span>
+						<i aria-hidden="true" class="fab fa-linkedin"></i>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-f923a47" href="https://www.facebook.com/innovationfactory.ca" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<i aria-hidden="true" class="fab fa-facebook"></i>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-72bdd87" href="https://www.instagram.com/innovationfactory_if/?hl=en" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i aria-hidden="true" class="fab fa-instagram"></i>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-ab483c8" href="https://www.youtube.com/channel/UCrd58YhUOmVGbC2AlzNLTGw" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<i aria-hidden="true" class="fab fa-youtube"></i>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-83ed428 elementor-widget elementor-widget-button" data-id="83ed428" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-xs" href="https://innovationfactory.ca/client-intake-form/" id="header-intake">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Become a client</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-11acdde elementor-hidden-mobile elementor-widget elementor-widget-button" data-id="11acdde" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-xs" href="https://innovationfactory.ca/partner-with-us/" id="header-partnership">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Partner with us</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-899c0f1 elementor-widget elementor-widget-html" data-id="899c0f1" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+					<div class="gtranslate_wrapper" id="gt-wrapper-26631839"></div>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-f31a9d1 e-flex e-con-boxed e-con e-parent" data-id="f31a9d1" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-b70386d elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="b70386d" data-element_type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+											<a href="https://innovationfactory.ca">
+			<img width="300" height="118" src="https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Logo_colour-1-300x118.png" class="attachment-medium size-medium wp-image-20" alt="Innovation Factory logo" srcset="https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Logo_colour-1-300x118.png 300w, https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Logo_colour-1-1024x403.png 1024w, https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Logo_colour-1-768x302.png 768w, https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Logo_colour-1-1536x604.png 1536w, https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Logo_colour-1.png 2037w" sizes="(max-width: 300px) 100vw, 300px" />				</a>
+											</div>
+				</div>
+				<div class="elementor-element elementor-element-957691a elementor-nav-menu__align-end elementor-nav-menu--stretch elementor-nav-menu__text-align-center elementor-nav-menu--dropdown-tablet elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="957691a" data-element_type="widget" data-settings="{&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-chevron-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
+				<ul id="menu-1-957691a" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-210"><a href="https://innovationfactory.ca/about/" class="elementor-item">About</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-330"><a href="https://innovationfactory.ca/about/" class="elementor-sub-item">About iF</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"><a href="https://innovationfactory.ca/our-team/" class="elementor-sub-item">Meet Our Team</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"><a href="https://innovationfactory.ca/careers/" class="elementor-sub-item">Join Our Team</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-214"><a href="https://innovationfactory.ca/programs-and-services/" class="elementor-item">Services</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-334"><a href="https://innovationfactory.ca/programs-and-services/" class="elementor-sub-item">Programs &#038; Services</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-340"><a href="https://innovationfactory.ca/funding-investment/" class="elementor-sub-item">Funding &amp; Investment</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420"><a href="https://innovationfactory.ca/resources/" class="elementor-sub-item">Resources &#038; Opportunities</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21876"><a href="https://innovationfactory.ca/workshops/" class="elementor-sub-item">Workshops</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21878"><a href="https://innovationfactory.ca/peer-to-peer-networks/" class="elementor-sub-item">Peer-to-Peer Networks</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="https://innovationfactory.ca/start-up-visa-program/" class="elementor-sub-item">Start-up Visa Program</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24437"><a href="https://innovationfactory.ca/inclusive-resources/" class="elementor-sub-item">Inclusive Resources</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25906"><a href="https://innovationfactory.ca/navigating-tariffs-as-a-canadian-entrepreneur/" class="elementor-sub-item">Navigating US-Canada Tariffs</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-213"><a href="https://innovationfactory.ca/events/" class="elementor-item">Events</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-332"><a href="https://innovationfactory.ca/events/" class="elementor-sub-item">Events Calendar</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21875"><a href="https://innovationfactory.ca/pitch-competitions-and-challenges/" class="elementor-sub-item">Pitch Competitions</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21877"><a href="https://innovationfactory.ca/signature-events/" class="elementor-sub-item">Signature Events</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-has-children menu-item-209"><a href="https://innovationfactory.ca/news/" class="elementor-item">News</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-22496"><a href="https://innovationfactory.ca/news/" class="elementor-sub-item">Latest News</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-394"><a href="https://innovationfactory.ca/category/innovator-spotlights/" class="elementor-sub-item">Innovator Spotlights</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-393"><a href="https://innovationfactory.ca/category/press-release/" class="elementor-sub-item">Press Releases</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22406"><a href="https://innovationfactory.ca/category/insights-and-strategies/" class="elementor-sub-item">Insights &amp; Strategies</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-211"><a href="https://innovationfactory.ca/clients/" class="elementor-item">Portfolio</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-396"><a href="https://innovationfactory.ca/clients/" class="elementor-sub-item">Our Innovators</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21955"><a href="https://innovationfactory.ca/partner-with-us/" class="elementor-sub-item">Our Partners</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-212"><a href="https://innovationfactory.ca/contact/" class="elementor-item">Contact</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open fas fa-bars"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-957691a" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-210"><a href="https://innovationfactory.ca/about/" class="elementor-item" tabindex="-1">About</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-330"><a href="https://innovationfactory.ca/about/" class="elementor-sub-item" tabindex="-1">About iF</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"><a href="https://innovationfactory.ca/our-team/" class="elementor-sub-item" tabindex="-1">Meet Our Team</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"><a href="https://innovationfactory.ca/careers/" class="elementor-sub-item" tabindex="-1">Join Our Team</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-214"><a href="https://innovationfactory.ca/programs-and-services/" class="elementor-item" tabindex="-1">Services</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-334"><a href="https://innovationfactory.ca/programs-and-services/" class="elementor-sub-item" tabindex="-1">Programs &#038; Services</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-340"><a href="https://innovationfactory.ca/funding-investment/" class="elementor-sub-item" tabindex="-1">Funding &amp; Investment</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420"><a href="https://innovationfactory.ca/resources/" class="elementor-sub-item" tabindex="-1">Resources &#038; Opportunities</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21876"><a href="https://innovationfactory.ca/workshops/" class="elementor-sub-item" tabindex="-1">Workshops</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21878"><a href="https://innovationfactory.ca/peer-to-peer-networks/" class="elementor-sub-item" tabindex="-1">Peer-to-Peer Networks</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="https://innovationfactory.ca/start-up-visa-program/" class="elementor-sub-item" tabindex="-1">Start-up Visa Program</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24437"><a href="https://innovationfactory.ca/inclusive-resources/" class="elementor-sub-item" tabindex="-1">Inclusive Resources</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25906"><a href="https://innovationfactory.ca/navigating-tariffs-as-a-canadian-entrepreneur/" class="elementor-sub-item" tabindex="-1">Navigating US-Canada Tariffs</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-213"><a href="https://innovationfactory.ca/events/" class="elementor-item" tabindex="-1">Events</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-332"><a href="https://innovationfactory.ca/events/" class="elementor-sub-item" tabindex="-1">Events Calendar</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21875"><a href="https://innovationfactory.ca/pitch-competitions-and-challenges/" class="elementor-sub-item" tabindex="-1">Pitch Competitions</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21877"><a href="https://innovationfactory.ca/signature-events/" class="elementor-sub-item" tabindex="-1">Signature Events</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-has-children menu-item-209"><a href="https://innovationfactory.ca/news/" class="elementor-item" tabindex="-1">News</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-22496"><a href="https://innovationfactory.ca/news/" class="elementor-sub-item" tabindex="-1">Latest News</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-394"><a href="https://innovationfactory.ca/category/innovator-spotlights/" class="elementor-sub-item" tabindex="-1">Innovator Spotlights</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-393"><a href="https://innovationfactory.ca/category/press-release/" class="elementor-sub-item" tabindex="-1">Press Releases</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22406"><a href="https://innovationfactory.ca/category/insights-and-strategies/" class="elementor-sub-item" tabindex="-1">Insights &amp; Strategies</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-211"><a href="https://innovationfactory.ca/clients/" class="elementor-item" tabindex="-1">Portfolio</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-396"><a href="https://innovationfactory.ca/clients/" class="elementor-sub-item" tabindex="-1">Our Innovators</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21955"><a href="https://innovationfactory.ca/partner-with-us/" class="elementor-sub-item" tabindex="-1">Our Partners</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-212"><a href="https://innovationfactory.ca/contact/" class="elementor-item" tabindex="-1">Contact</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-9eaf1d9 elementor-search-form--skin-full_screen elementor-widget elementor-widget-search-form" data-id="9eaf1d9" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;full_screen&quot;}" data-widget_type="search-form.default">
+				<div class="elementor-widget-container">
+							<search role="search">
+			<form class="elementor-search-form" action="https://innovationfactory.ca" method="get">
+												<div class="elementor-search-form__toggle" role="button" tabindex="0" aria-label="Search">
+					<i aria-hidden="true" class="fas fa-search"></i>				</div>
+								<div class="elementor-search-form__container">
+					<label class="elementor-screen-only" for="elementor-search-form-9eaf1d9">Search</label>
+
+					
+					<input id="elementor-search-form-9eaf1d9" placeholder="Search..." class="elementor-search-form__input" type="search" name="s" value="">
+					
+					
+										<div class="dialog-lightbox-close-button dialog-close-button" role="button" tabindex="0" aria-label="Close this search box.">
+						<i aria-hidden="true" class="eicon-close"></i>					</div>
+									</div>
+			</form>
+		</search>
+						</div>
+				</div>
+					</div>
+				</div>
+				</header>
+				<div data-elementor-type="error-404" data-elementor-id="274" class="elementor elementor-274 elementor-location-single" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-43fe0fb e-flex e-con-boxed e-con e-parent" data-id="43fe0fb" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-ca9260c e-con-full e-flex e-con e-child" data-id="ca9260c" data-element_type="container">
+				<div class="elementor-element elementor-element-a4c3e54 elementor-widget elementor-widget-image" data-id="a4c3e54" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img fetchpriority="high" width="600" height="800" src="https://innovationfactory.ca/wp-content/uploads/2023/05/404-error-lightbulb-innovation-factory.png" class="attachment-full size-full wp-image-834" alt="Graphic of a broken lightbulb" srcset="https://innovationfactory.ca/wp-content/uploads/2023/05/404-error-lightbulb-innovation-factory.png 600w, https://innovationfactory.ca/wp-content/uploads/2023/05/404-error-lightbulb-innovation-factory-225x300.png 225w, https://innovationfactory.ca/wp-content/uploads/2023/05/404-error-lightbulb-innovation-factory-300x400.png 300w" sizes="(max-width: 600px) 100vw, 600px" />															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2ac0534 e-con-full e-flex e-con e-child" data-id="2ac0534" data-element_type="container">
+				<div class="elementor-element elementor-element-0d4349d elementor-widget elementor-widget-heading" data-id="0d4349d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-heading-title elementor-size-default">404</h1>				</div>
+				</div>
+				<div class="elementor-element elementor-element-83f7cfd elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="83f7cfd" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Uh oh! It seems we don&#8217;t have what you&#8217;re looking for. Don&#8217;t worry, we&#8217;ll help you get back to the right page.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-d6f6729 elementor-search-form--skin-minimal elementor-widget__width-initial elementor-widget elementor-widget-search-form" data-id="d6f6729" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;minimal&quot;}" data-widget_type="search-form.default">
+				<div class="elementor-widget-container">
+							<search role="search">
+			<form class="elementor-search-form" action="https://innovationfactory.ca" method="get">
+												<div class="elementor-search-form__container">
+					<label class="elementor-screen-only" for="elementor-search-form-d6f6729">Search</label>
+
+											<div class="elementor-search-form__icon">
+							<i aria-hidden="true" class="fas fa-search"></i>							<span class="elementor-screen-only">Search</span>
+						</div>
+					
+					<input id="elementor-search-form-d6f6729" placeholder="Search our website..." class="elementor-search-form__input" type="search" name="s" value="">
+					
+					
+									</div>
+			</form>
+		</search>
+						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<footer data-elementor-type="footer" data-elementor-id="141" class="elementor elementor-141 elementor-location-footer" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-f6e0f4c e-flex e-con-boxed e-con e-parent" data-id="f6e0f4c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2b78144 e-con-full e-flex e-con e-child" data-id="2b78144" data-element_type="container">
+				<div class="elementor-element elementor-element-3a1f018 elementor-widget elementor-widget-image" data-id="3a1f018" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="768" height="302" src="https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Logo_white-768x302.png" class="attachment-medium_large size-medium_large wp-image-18" alt="Innovation Factory logo" srcset="https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Logo_white-768x302.png 768w, https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Logo_white-300x118.png 300w, https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Logo_white-1024x403.png 1024w, https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Logo_white-1536x604.png 1536w, https://innovationfactory.ca/wp-content/uploads/2023/04/iF-Logo_white.png 2037w" sizes="(max-width: 768px) 100vw, 768px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-759a245 elementor-widget elementor-widget-heading" data-id="759a245" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default"><a href="/cdn-cgi/l/email-protection#9df4f3fbf2ddf4f3f3f2ebfce9f4f2f3fbfcfee9f2efe4b3fefc"><span class="__cf_email__" data-cfemail="432a2d252c032a2d2d2c3522372a2c2d252220372c313a6d2022">[email&#160;protected]</span></a></h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-2a3aa03 elementor-widget elementor-widget-heading" data-id="2a3aa03" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default"><a href="tel:19056672611">905-667-2611</a></h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-27fc22c elementor-widget elementor-widget-heading" data-id="27fc22c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default"><a href="https://goo.gl/maps/tDpMTJVicYqr2VB36" target="_blank"><b>Hamilton Office</b></a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-744b779 elementor-widget elementor-widget-heading" data-id="744b779" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default"><a href="https://goo.gl/maps/tDpMTJVicYqr2VB36" target="_blank">B21 - 175 Longwood Road South, Hamilton, ON  L8P 0A1 Canada</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-9930b67 elementor-widget elementor-widget-heading" data-id="9930b67" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default"><a href="https://maps.app.goo.gl/1pZvxE3qRGKkJxqi9" target="_blank"><b>Halton Office</b></a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-aa64fe9 elementor-widget elementor-widget-heading" data-id="aa64fe9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default"><a href="https://maps.app.goo.gl/1pZvxE3qRGKkJxqi9" target="_blank">5151 New Street, Burlington, ON L7L 1V3</a></p>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-09b49ad e-con-full e-flex e-con e-child" data-id="09b49ad" data-element_type="container">
+				<div class="elementor-element elementor-element-64a3738 elementor-widget elementor-widget-heading" data-id="64a3738" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default">For Innovators</h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-b65d0b7 elementor-align-left elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="b65d0b7" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-xs" href="https://innovationfactory.ca/client-intake-form/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Become a Client</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-5312ed8 elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="5312ed8" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-chevron-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-5312ed8" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-157"><a href="https://innovationfactory.ca/programs-and-services/" class="elementor-item">Services</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158"><a href="https://innovationfactory.ca/resources/" class="elementor-item">Resources &#038; Opportunities</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156"><a href="https://innovationfactory.ca/events/" class="elementor-item">Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"><a href="https://innovationfactory.ca/start-up-visa-program/" class="elementor-item">Start-up Visa Program</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-159"><a href="/about/#faq" class="elementor-item elementor-item-anchor">FAQ</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-5312ed8" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-157"><a href="https://innovationfactory.ca/programs-and-services/" class="elementor-item" tabindex="-1">Services</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158"><a href="https://innovationfactory.ca/resources/" class="elementor-item" tabindex="-1">Resources &#038; Opportunities</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156"><a href="https://innovationfactory.ca/events/" class="elementor-item" tabindex="-1">Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"><a href="https://innovationfactory.ca/start-up-visa-program/" class="elementor-item" tabindex="-1">Start-up Visa Program</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-159"><a href="/about/#faq" class="elementor-item elementor-item-anchor" tabindex="-1">FAQ</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-5c1a4a0 e-con-full e-flex e-con e-child" data-id="5c1a4a0" data-element_type="container">
+				<div class="elementor-element elementor-element-65463f2 elementor-widget elementor-widget-heading" data-id="65463f2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default">For Partners &amp; Investors</h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-3769aae elementor-align-left elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="3769aae" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-xs" href="https://innovationfactory.ca/partner-with-us/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Partner with us</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-5e50090 elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="5e50090" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-chevron-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-5e50090" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161"><a href="https://innovationfactory.ca/clients/" class="elementor-item">Innovator Portfolio</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-5e50090" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161"><a href="https://innovationfactory.ca/clients/" class="elementor-item" tabindex="-1">Innovator Portfolio</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-f8f9d42 e-con-full e-flex e-con e-child" data-id="f8f9d42" data-element_type="container">
+				<div class="elementor-element elementor-element-1ec1495 elementor-widget elementor-widget-heading" data-id="1ec1495" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default">Quick Links</h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-de13358 elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="de13358" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-chevron-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-de13358" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-215"><a href="https://innovationfactory.ca/about/" class="elementor-item">About iF</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-217"><a href="https://innovationfactory.ca/contact/" class="elementor-item">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-216"><a href="https://innovationfactory.ca/careers/" class="elementor-item">Careers</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-de13358" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-215"><a href="https://innovationfactory.ca/about/" class="elementor-item" tabindex="-1">About iF</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-217"><a href="https://innovationfactory.ca/contact/" class="elementor-item" tabindex="-1">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-216"><a href="https://innovationfactory.ca/careers/" class="elementor-item" tabindex="-1">Careers</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-7f158f6 elementor-shape-square e-grid-align-left e-grid-align-mobile-center elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="7f158f6" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid" role="list">
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-f00345f" href="https://www.linkedin.com/company/innovation-factory.ca" target="_blank">
+						<span class="elementor-screen-only">Linkedin</span>
+						<i aria-hidden="true" class="fab fa-linkedin"></i>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-f923a47" href="https://www.facebook.com/innovationfactory.ca" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<i aria-hidden="true" class="fab fa-facebook"></i>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-72bdd87" href="https://www.instagram.com/innovationfactory_if/?hl=en" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i aria-hidden="true" class="fab fa-instagram"></i>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-ab483c8" href="https://www.youtube.com/channel/UCrd58YhUOmVGbC2AlzNLTGw" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<i aria-hidden="true" class="fab fa-youtube"></i>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-02c07dc elementor-align-left elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="02c07dc" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-xs" href="https://visitor.r20.constantcontact.com/manage/optin?v=001hO0yHkxIYQKAlMO_pSnfDXszvL2EYQLbVRS256LXvjKZUn8az7qAF57PchaQAqty6K_IFq2YV7d96NWm9pwu8QbydkZzbw6M2aZkIK7PxBRQX_7E1zXS_e2CljuZ_4jBMnHOQSL7T3AexdpVwdAWkQA6mW-rbdsP">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Subscribe to our newsletter</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-b3ff8ca elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="b3ff8ca" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-chevron-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-b3ff8ca" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"><a href="https://innovationfactory.ca/terms-and-conditions/" class="elementor-item">Terms &amp; Conditions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="https://innovationfactory.ca/privacy-policy/" class="elementor-item">Privacy Policy</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26326"><a href="https://innovationfactory.ca/accessibility/" class="elementor-item">Accessibility</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-b3ff8ca" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"><a href="https://innovationfactory.ca/terms-and-conditions/" class="elementor-item" tabindex="-1">Terms &amp; Conditions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="https://innovationfactory.ca/privacy-policy/" class="elementor-item" tabindex="-1">Privacy Policy</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26326"><a href="https://innovationfactory.ca/accessibility/" class="elementor-item" tabindex="-1">Accessibility</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-2351ac5 elementor-widget elementor-widget-image" data-id="2351ac5" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://queertech.org/" target="_blank">
+							<img loading="lazy" width="768" height="768" src="https://innovationfactory.ca/wp-content/uploads/2023/07/QTMEMBER_BADGE-768x768.png" class="attachment-medium_large size-medium_large wp-image-24947" alt="QueerTech Corporate Member - Supporting our Communities Badge" srcset="https://innovationfactory.ca/wp-content/uploads/2023/07/QTMEMBER_BADGE-768x768.png 768w, https://innovationfactory.ca/wp-content/uploads/2023/07/QTMEMBER_BADGE-300x300.png 300w, https://innovationfactory.ca/wp-content/uploads/2023/07/QTMEMBER_BADGE-1024x1024.png 1024w, https://innovationfactory.ca/wp-content/uploads/2023/07/QTMEMBER_BADGE-150x150.png 150w, https://innovationfactory.ca/wp-content/uploads/2023/07/QTMEMBER_BADGE-500x500.png 500w, https://innovationfactory.ca/wp-content/uploads/2023/07/QTMEMBER_BADGE-1536x1536.png 1536w, https://innovationfactory.ca/wp-content/uploads/2023/07/QTMEMBER_BADGE.png 2000w" sizes="(max-width: 768px) 100vw, 768px" />								</a>
+															</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-8553139 e-flex e-con-boxed e-con e-parent" data-id="8553139" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d7e4576 elementor-widget-mobile__width-inherit elementor-widget elementor-widget-heading" data-id="d7e4576" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<span class="elementor-heading-title elementor-size-default">Funded by:</span>				</div>
+				</div>
+				<div class="elementor-element elementor-element-df07b26 elementor-widget elementor-widget-image" data-id="df07b26" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://www.ontario.ca/page/ministry-economic-development-job-creation-trade" target="_blank">
+							<img loading="lazy" width="300" height="115" src="https://innovationfactory.ca/wp-content/uploads/2023/05/ontario-300x115.png" class="attachment-medium size-medium wp-image-449" alt="Government of Ontario Logo" srcset="https://innovationfactory.ca/wp-content/uploads/2023/05/ontario-300x115.png 300w, https://innovationfactory.ca/wp-content/uploads/2023/05/ontario.png 313w" sizes="(max-width: 300px) 100vw, 300px" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-4f13f1e elementor-widget elementor-widget-image" data-id="4f13f1e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://www.feddevontario.gc.ca/eic/site/723.nsf/intro" target="_blank">
+							<img loading="lazy" width="298" height="120" src="https://innovationfactory.ca/wp-content/uploads/2023/05/canada.png" class="attachment-medium size-medium wp-image-447" alt="Government of Canada Logo" />								</a>
+															</div>
+				</div>
+					</div>
+				</div>
+				</footer>
+		
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/secure-hello\/*","\/wp-content\/themes\/hello-elementor\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+			<script>
+				const registerAllyAction = () => {
+					if ( ! window?.elementorAppConfig?.hasPro || ! window?.elementorFrontend?.utils?.urlActions ) {
+						return;
+					}
+
+					elementorFrontend.utils.urlActions.addAction( 'allyWidget:open', () => {
+						if ( window?.ea11yWidget?.widget?.open ) {
+							window.ea11yWidget.widget.open();
+						}
+					} );
+				};
+
+				const waitingLimit = 30;
+				let retryCounter = 0;
+
+				const waitForElementorPro = () => {
+					return new Promise( ( resolve ) => {
+						const intervalId = setInterval( () => {
+							if ( retryCounter === waitingLimit ) {
+								resolve( null );
+							}
+
+							retryCounter++;
+
+							if ( window.elementorFrontend && window?.elementorFrontend?.utils?.urlActions ) {
+								clearInterval( intervalId );
+								resolve( window.elementorFrontend );
+							}
+								}, 100 ); // Check every 100 milliseconds for availability of elementorFrontend
+					});
+				};
+
+				waitForElementorPro().then( () => { registerAllyAction(); });
+			</script>
+					<div data-elementor-type="popup" data-elementor-id="26371" class="elementor elementor-26371 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;fadeInUp&quot;,&quot;exit_animation&quot;:&quot;fadeInUp&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:{&quot;page_load&quot;:&quot;yes&quot;,&quot;page_load_delay&quot;:0},&quot;timing&quot;:{&quot;times_times&quot;:1,&quot;times_period&quot;:&quot;day&quot;,&quot;times&quot;:&quot;yes&quot;,&quot;logged_in&quot;:&quot;yes&quot;,&quot;logged_in_users&quot;:&quot;all&quot;}}" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-78b7cc08 e-con-full e-flex e-con e-parent" data-id="78b7cc08" data-element_type="container">
+		<div class="elementor-element elementor-element-28817c5 e-con-full e-flex e-con e-child" data-id="28817c5" data-element_type="container">
+				<div class="elementor-element elementor-element-9b08c48 elementor-widget elementor-widget-text-editor" data-id="9b08c48" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Our website uses cookies to ensure you get the best experience. <a href="https://innovationfactory.ca/privacy-policy/#elementor-toc__heading-anchor-3" target="_blank" rel="noopener">Learn more about the policy</a>. </p>								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-ff40dc2 e-con-full e-flex e-con e-child" data-id="ff40dc2" data-element_type="container">
+				<div class="elementor-element elementor-element-9069452 elementor-widget elementor-widget-button" data-id="9069452" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="#elementor-action%3Aaction%3Dpopup%3Aclose%26settings%3DeyJkb19ub3Rfc2hvd19hZ2FpbiI6InllcyJ9">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Accept</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+				</div>
+				</div>
+					<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<script type="text/html" id="tmpl-jet-ajax-search-results-item">
+<div class="jet-ajax-search__results-item">
+	<a class="jet-ajax-search__item-link" href="{{{data.link}}}" target="{{{data.link_target_attr}}}">
+		{{{data.thumbnail}}}
+		<div class="jet-ajax-search__item-content-wrapper">
+			{{{data.before_title}}}
+			<div class="jet-ajax-search__item-title">{{{data.title}}}</div>
+			{{{data.after_title}}}
+			{{{data.before_content}}}
+			<div class="jet-ajax-search__item-content">{{{data.content}}}</div>
+			{{{data.after_content}}}
+			{{{data.rating}}}
+			{{{data.price}}}
+			{{{data.add_to_cart}}}
+		</div>
+	</a>
+</div>
+</script><script type="text/html" id="tmpl-jet-search-focus-suggestion-item">
+<div class="jet-search-suggestions__focus-area-item" tabindex="0" aria-label="{{{data.fullName}}}">
+	<div class="jet-search-suggestions__focus-area-item-title">{{{data.name}}}</div>
+</div>
+</script><script type="text/html" id="tmpl-jet-search-inline-suggestion-item">
+<div class="jet-search-suggestions__inline-area-item" tabindex="0" aria-label="{{{data.fullName}}}">
+	<div class="jet-search-suggestions__inline-area-item-title" >{{{data.name}}}</div>
+</div>
+</script><script type="text/html" id="tmpl-jet-ajax-search-inline-suggestion-item">
+<div class="jet-ajax-search__suggestions-inline-area-item" tabindex="0" aria-label="{{{data.fullName}}}">
+	<div class="jet-ajax-search__suggestions-inline-area-item-title" >{{{data.name}}}</div>
+</div>
+</script><script type="text/html" id="tmpl-jet-ajax-search-results-suggestion-item">
+<div class="jet-ajax-search__results-suggestions-area-item" tabindex="0" aria-label="{{{data.fullName}}}">
+	<div class="jet-ajax-search__results-suggestions-area-item-title">{{{data.name}}}</div>
+</div>
+</script><script src="https://innovationfactory.ca/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script src="https://innovationfactory.ca/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3" id="jquery-ui-datepicker-js"></script>
+<script id="jquery-ui-datepicker-js-after">
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script src="https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/js/jquery.typewatch.js?ver=7.27.0" id="mec-typekit-script-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/packages/featherlight/featherlight.js?ver=7.27.0" id="featherlight-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/packages/select2/select2.full.min.js?ver=7.27.0" id="mec-select2-script-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/js/mec-general-calendar.js?ver=7.27.0" id="mec-general-calendar-script-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/packages/tooltip/tooltip.js?ver=7.27.0" id="mec-tooltip-script-js"></script>
+<script id="mec-frontend-script-js-extra">
+var mecdata = {"day":"day","days":"days","hour":"hour","hours":"hours","minute":"minute","minutes":"minutes","second":"second","seconds":"seconds","next":"Next","prev":"Prev","elementor_edit_mode":"no","recapcha_key":"NZbi&(TSqiJ1VnBd","ajax_url":"https:\/\/innovationfactory.ca\/wp-admin\/admin-ajax.php","fes_nonce":"fc40522d16","fes_thankyou_page_time":"2000","fes_upload_nonce":"7d03378598","current_year":"2025","current_month":"11","datepicker_format":"dd-mm-yy&d-m-Y"};
+var mecdata = {"day":"day","days":"days","hour":"hour","hours":"hours","minute":"minute","minutes":"minutes","second":"second","seconds":"seconds","next":"Next","prev":"Prev","elementor_edit_mode":"no","recapcha_key":"NZbi&(TSqiJ1VnBd","ajax_url":"https:\/\/innovationfactory.ca\/wp-admin\/admin-ajax.php","fes_nonce":"fc40522d16","fes_thankyou_page_time":"2000","fes_upload_nonce":"7d03378598","current_year":"2025","current_month":"11","datepicker_format":"dd-mm-yy&d-m-Y"};
+</script>
+<script src="https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/js/frontend.js?ver=7.27.0" id="mec-frontend-script-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/js/events.js?ver=7.27.0" id="mec-events-script-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/packages/lity/lity.min.js?ver=7.27.0" id="mec-lity-script-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/packages/colorbrightness/colorbrightness.min.js?ver=7.27.0" id="mec-colorbrightness-script-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/modern-events-calendar-lite/assets/packages/owl-carousel/owl.carousel.min.js?ver=7.27.0" id="mec-owl-carousel-script-js"></script>
+<script src="https://innovationfactory.ca/wp-includes/js/underscore.min.js?ver=1.13.7" id="underscore-js"></script>
+<script id="wp-util-js-extra">
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+</script>
+<script src="https://innovationfactory.ca/wp-includes/js/wp-util.min.js?ver=6.8.3" id="wp-util-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/jet-search/assets/lib/chosen/chosen.jquery.min.js?ver=1.8.7" id="jquery-chosen-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/jet-search/assets/lib/jet-plugins/jet-plugins.js?ver=1.0.0" id="jet-plugins-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/jet-search/assets/js/jet-search.js?ver=3.5.15" id="jet-search-js"></script>
+<script id="ea11y-widget-js-extra">
+var ea11yWidget = {"iconSettings":{"style":{"icon":"person","size":"large","color":"#1074ab"},"position":{"desktop":{"hidden":false,"enableExactPosition":false,"exactPosition":{"horizontal":{"direction":"right","value":10,"unit":"px"},"vertical":{"direction":"bottom","value":10,"unit":"px"}},"position":"bottom-right"},"mobile":{"hidden":false,"enableExactPosition":false,"exactPosition":{"horizontal":{"direction":"right","value":10,"unit":"px"},"vertical":{"direction":"bottom","value":10,"unit":"px"}},"position":"bottom-right"}}},"toolsSettings":{"bigger-text":{"enabled":true},"bigger-line-height":{"enabled":true},"text-align":{"enabled":true},"readable-font":{"enabled":true},"grayscale":{"enabled":true},"contrast":{"enabled":true},"page-structure":{"enabled":false},"sitemap":{"enabled":false,"url":"https:\/\/innovationfactory.ca\/wp-sitemap.xml"},"reading-mask":{"enabled":true},"hide-images":{"enabled":true},"pause-animations":{"enabled":true},"highlight-links":{"enabled":false},"focus-outline":{"enabled":true},"screen-reader":{"enabled":false},"remove-elementor-label":{"enabled":false}},"accessibilityStatementURL":"","analytics":{"enabled":false,"url":null}};
+</script>
+<script src="https://cdn.elementor.com/a11y/widget.js?api_key=ea11y-fce1c2df-08ce-49e2-9fb4-5248b213bf32&amp;ver=3.8.1" id="ea11y-widget-js"referrerPolicy="origin"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.33.0" id="elementor-webpack-runtime-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.33.0" id="elementor-frontend-modules-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1367,"default_value":1366,"direction":"max","is_enabled":true},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":true},"version":"3.33.0","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"container":true,"theme_builder_v2":true,"nested-elements":true,"home_screen":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"cloud-library":true,"e_opt_in_v4_page":true,"import-export-customization":true,"e_pro_variables":true},"urls":{"assets":"https:\/\/innovationfactory.ca\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/innovationfactory.ca\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/innovationfactory.ca\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"ce0492b855"},"swiperClass":"swiper","settings":{"editorPreferences":[]},"kit":{"viewport_laptop":"1367","active_breakpoints":["viewport_mobile","viewport_tablet","viewport_laptop"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":0,"title":"Page not found - Innovation Factory","excerpt":""}};
+</script>
+<script src="https://innovationfactory.ca/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.33.0" id="elementor-frontend-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.33.0" id="e-sticky-js"></script>
+<script id="eael-general-js-extra">
+var localize = {"ajaxurl":"https:\/\/innovationfactory.ca\/wp-admin\/admin-ajax.php","nonce":"f0319e140f","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"https:\/\/innovationfactory.ca\/innovation-factorys-new-venture-pitch-challenge-night-advancing-the-next-cohort-of-early-stage-innovators\/","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1367,"default_value":1366,"direction":"max","is_enabled":true},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"ParticleThemesData":{"default":"{\"particles\":{\"number\":{\"value\":160,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":false,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":true,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":6,\"direction\":\"none\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"repulse\"},\"onclick\":{\"enable\":true,\"mode\":\"push\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}","nasa":"{\"particles\":{\"number\":{\"value\":250,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":1,\"random\":true,\"anim\":{\"enable\":true,\"speed\":1,\"opacity_min\":0,\"sync\":false}},\"size\":{\"value\":3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":4,\"size_min\":0.3,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":1,\"direction\":\"none\",\"random\":true,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":600}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"bubble\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":250,\"size\":0,\"duration\":2,\"opacity\":0,\"speed\":3},\"repulse\":{\"distance\":400,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}","bubble":"{\"particles\":{\"number\":{\"value\":15,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#1b1e34\"},\"shape\":{\"type\":\"polygon\",\"stroke\":{\"width\":0,\"color\":\"#000\"},\"polygon\":{\"nb_sides\":6},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":50,\"random\":false,\"anim\":{\"enable\":true,\"speed\":10,\"size_min\":40,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":200,\"color\":\"#ffffff\",\"opacity\":1,\"width\":2},\"move\":{\"enable\":true,\"speed\":8,\"direction\":\"none\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":false,\"mode\":\"grab\"},\"onclick\":{\"enable\":false,\"mode\":\"push\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}","snow":"{\"particles\":{\"number\":{\"value\":450,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#fff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img\/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":true,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":5,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":500,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":2},\"move\":{\"enable\":true,\"speed\":6,\"direction\":\"bottom\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"bubble\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":0.5}},\"bubble\":{\"distance\":400,\"size\":4,\"duration\":0.3,\"opacity\":1,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}","nyan_cat":"{\"particles\":{\"number\":{\"value\":150,\"density\":{\"enable\":false,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"star\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"http:\/\/wiki.lexisnexis.com\/academic\/images\/f\/fb\/Itunes_podcast_icon_300.jpg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":false,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":4,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":14,\"direction\":\"left\",\"random\":false,\"straight\":true,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":false,\"mode\":\"grab\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":200,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}"},"eael_login_nonce":"8bb9eedb03","eael_register_nonce":"3436a798bf","eael_lostpassword_nonce":"d4fbc035d2","eael_resetpassword_nonce":"8cac3379f5"};
+</script>
+<script src="https://innovationfactory.ca/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=6.4.0" id="eael-general-js"></script>
+<script id="gt_widget_script_26631839-js-before">
+window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings['26631839'] = {"default_language":"en","languages":["en","fr"],"url_structure":"none","native_language_names":1,"detect_browser_language":1,"wrapper_selector":"#gt-wrapper-26631839","horizontal_position":"inline","flags_location":"\/wp-content\/plugins\/gtranslate\/flags\/"};
+</script><script src="https://innovationfactory.ca/wp-content/plugins/gtranslate/js/lc.js?ver=6.8.3" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/wp-content/uploads/2023/08/if-logo-main.png" data-gt-orig-domain="innovationfactory.ca" data-gt-widget-id="26631839" defer></script><script src="https://innovationfactory.ca/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.33.0" id="elementor-pro-webpack-runtime-js"></script>
+<script src="https://innovationfactory.ca/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script src="https://innovationfactory.ca/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/innovationfactory.ca\/wp-admin\/admin-ajax.php","nonce":"8ec83b7767","urls":{"assets":"https:\/\/innovationfactory.ca\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/innovationfactory.ca\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":true},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_CA","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/innovationfactory.ca\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src="https://innovationfactory.ca/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.33.0" id="elementor-pro-frontend-js"></script>
+<script src="https://innovationfactory.ca/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.33.0" id="pro-elements-handlers-js"></script>
+
+</body>
+</html>

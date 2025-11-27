@@ -3,26 +3,38 @@ export default function Features() {
     {
       title: 'AI Classification',
       description: 'Two-stage AI validation with 95%+ accuracy. Automatically determines if work is in-scope or billable.',
+      icon: '🤖',
+      color: 'from-blue-500 to-cyan-500',
     },
     {
       title: 'MSA Parsing',
       description: 'Upload agreements and AI extracts inclusions, exclusions, and billing rates automatically.',
+      icon: '📄',
+      color: 'from-purple-500 to-pink-500',
     },
     {
       title: 'PSA Integration',
       description: 'Connects with ConnectWise Manage and other PSA systems to classify tickets in real-time.',
+      icon: '🔌',
+      color: 'from-green-500 to-emerald-500',
     },
     {
       title: 'Auto Billing',
       description: 'Calculates billable amounts based on time spent and rates. Export to Excel, CSV, or JSON.',
+      icon: '💰',
+      color: 'from-yellow-500 to-orange-500',
     },
     {
       title: 'Multi-Client',
       description: 'Manage multiple MSP clients with complete data isolation. Each client stays separate.',
+      icon: '👥',
+      color: 'from-indigo-500 to-blue-500',
     },
     {
       title: 'Learning System',
       description: 'Client corrections become training examples, improving accuracy over time.',
+      icon: '🧠',
+      color: 'from-red-500 to-rose-500',
     },
   ];
 
@@ -42,8 +54,11 @@ export default function Features() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="p-6 rounded-xl bg-slate-800/50 border border-slate-700/50 hover:border-blue-500/50 transition-all duration-200"
+              className="p-6 rounded-xl bg-slate-800/50 border border-slate-700/50 hover:border-blue-500/50 transition-all duration-200 group"
             >
+              <div className={`w-14 h-14 rounded-lg bg-gradient-to-br ${feature.color} flex items-center justify-center text-3xl mb-4 group-hover:scale-110 transition-transform duration-200`}>
+                {feature.icon}
+              </div>
               <h3 className="text-xl font-semibold text-white mb-3">
                 {feature.title}
               </h3>
