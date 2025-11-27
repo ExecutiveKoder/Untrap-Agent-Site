@@ -1,3 +1,7 @@
+'use client';
+
+import { motion } from 'framer-motion';
+
 export default function Benefits() {
   const benefits = [
     {
@@ -29,35 +33,58 @@ export default function Benefits() {
   return (
     <section id="benefits" className="py-20 bg-dark-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <motion.div
+          className="text-center mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+        >
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
             Tangible Business Impact
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Real results that improve your bottom line
           </p>
-        </div>
+        </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {benefits.map((benefit, index) => (
-            <div
+            <motion.div
               key={index}
-              className="bg-gradient-to-br from-dark-900/80 to-primary-900/20 backdrop-blur-sm rounded-xl p-8 border border-primary-500/20 hover:border-primary-500/40 transition-all duration-300 hover:transform hover:scale-105"
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6, delay: index * 0.1 }}
+              whileHover={{ scale: 1.02, borderColor: 'rgba(59, 130, 246, 0.6)' }}
+              className="bg-gradient-to-br from-dark-900/80 to-primary-900/20 backdrop-blur-sm rounded-xl p-8 border border-primary-500/20 transition-all duration-300"
             >
               <div className="flex items-start justify-between mb-4">
                 <h3 className="text-2xl font-bold text-white">{benefit.title}</h3>
-                <div className="text-right ml-4">
+                <motion.div
+                  className="text-right ml-4"
+                  initial={{ scale: 0 }}
+                  whileInView={{ scale: 1 }}
+                  viewport={{ once: true, margin: "-100px" }}
+                  transition={{ duration: 0.5, delay: index * 0.1 + 0.2, type: 'spring' }}
+                >
                   <div className="text-3xl font-bold text-primary-400">{benefit.stat}</div>
                   <div className="text-sm text-gray-400">{benefit.statLabel}</div>
-                </div>
+                </motion.div>
               </div>
               <p className="text-gray-400 leading-relaxed">{benefit.description}</p>
-            </div>
+            </motion.div>
           ))}
         </div>
 
         {/* ROI Calculator Teaser */}
-        <div className="mt-16 bg-gradient-to-r from-primary-900/30 to-blue-900/30 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-primary-500/30">
+        <motion.div
+          className="mt-16 bg-gradient-to-r from-primary-900/30 to-blue-900/30 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-primary-500/30"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+        >
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-3xl font-bold text-white mb-4">
@@ -109,7 +136,7 @@ export default function Benefits() {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

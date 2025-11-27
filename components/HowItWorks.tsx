@@ -1,3 +1,6 @@
+'use client';
+
+import { motion } from 'framer-motion';
 import ScrollButton from './ScrollButton';
 
 export default function HowItWorks() {
@@ -50,46 +53,87 @@ export default function HowItWorks() {
       <div className="absolute inset-0 bg-gradient-to-b from-primary-900/10 to-transparent"></div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <motion.div
+          className="text-center mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+        >
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
             How It Works
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Get started in minutes and start recovering lost revenue today
           </p>
-        </div>
+        </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((step, index) => (
-            <div key={index} className="relative">
+            <motion.div
+              key={index}
+              className="relative"
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6, delay: index * 0.15 }}
+            >
               {/* Connection line (hidden on last item) */}
               {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-20 left-1/2 w-full h-0.5 bg-gradient-to-r from-primary-500/50 to-primary-500/20 z-0"></div>
+                <motion.div
+                  className="hidden lg:block absolute top-20 left-1/2 w-full h-0.5 bg-gradient-to-r from-primary-500/50 to-primary-500/20 z-0"
+                  initial={{ scaleX: 0 }}
+                  whileInView={{ scaleX: 1 }}
+                  viewport={{ once: true, margin: "-100px" }}
+                  transition={{ duration: 0.8, delay: index * 0.15 + 0.3 }}
+                  style={{ transformOrigin: 'left' }}
+                ></motion.div>
               )}
 
-              <div className="relative bg-dark-800/50 backdrop-blur-sm rounded-xl p-8 border border-primary-500/20 hover:border-primary-500/40 transition-all duration-300 hover:transform hover:-translate-y-2 z-10">
+              <motion.div
+                className="relative bg-dark-800/50 backdrop-blur-sm rounded-xl p-8 border border-primary-500/20 transition-all duration-300 z-10"
+                whileHover={{ y: -8, borderColor: 'rgba(59, 130, 246, 0.6)' }}
+              >
                 {/* Step number */}
-                <div className="text-6xl font-bold text-primary-500/20 mb-4">{step.number}</div>
+                <motion.div
+                  className="text-6xl font-bold text-primary-500/20 mb-4"
+                  initial={{ scale: 0 }}
+                  whileInView={{ scale: 1 }}
+                  viewport={{ once: true, margin: "-100px" }}
+                  transition={{ duration: 0.4, delay: index * 0.15 + 0.2, type: 'spring' }}
+                >
+                  {step.number}
+                </motion.div>
 
                 {/* Icon */}
-                <div className="bg-primary-500/10 rounded-lg w-20 h-20 flex items-center justify-center text-primary-400 mb-6 mx-auto">
+                <motion.div
+                  className="bg-primary-500/10 rounded-lg w-20 h-20 flex items-center justify-center text-primary-400 mb-6 mx-auto"
+                  whileHover={{ rotate: 360, scale: 1.1 }}
+                  transition={{ duration: 0.6 }}
+                >
                   {step.icon}
-                </div>
+                </motion.div>
 
                 {/* Content */}
                 <h3 className="text-xl font-bold text-white mb-3 text-center">{step.title}</h3>
                 <p className="text-gray-400 leading-relaxed text-center">{step.description}</p>
-              </div>
-            </div>
+              </motion.div>
+            </motion.div>
           ))}
         </div>
 
         {/* CTA */}
-        <div className="mt-16 text-center">
+        <motion.div
+          className="mt-16 text-center"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6, delay: 0.6 }}
+        >
           <ScrollButton targetId="contact" variant="primary">
             Start Recovering Revenue
           </ScrollButton>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
