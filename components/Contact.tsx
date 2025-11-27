@@ -22,7 +22,7 @@ export default function Contact() {
 
     try {
       // Get reCAPTCHA token
-      const recaptchaToken = await recaptchaRef.current?.executeAsync();
+      const recaptchaToken = recaptchaRef.current?.getValue();
       if (!recaptchaToken) {
         throw new Error('Please complete the reCAPTCHA verification');
       }
@@ -171,12 +171,12 @@ export default function Contact() {
               </div>
             )}
 
-            {/* reCAPTCHA */}
-            <div className="flex justify-center">
+            {/* reCAPTCHA - centered above button */}
+            <div className="flex justify-center items-center w-full">
               <ReCAPTCHA
                 ref={recaptchaRef}
-                size="invisible"
                 sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ''}
+                theme="dark"
               />
             </div>
 
