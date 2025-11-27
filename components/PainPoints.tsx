@@ -1,3 +1,7 @@
+'use client';
+
+import { motion } from 'framer-motion';
+
 export default function PainPoints() {
   const painPoints = [
     {
@@ -41,25 +45,42 @@ export default function PainPoints() {
   return (
     <section className="py-20 bg-dark-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <motion.div
+          className="text-center mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+        >
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
             The Hidden Cost of Manual Billing
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             MSPs face constant challenges in identifying and billing for out-of-scope work
           </p>
-        </div>
+        </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {painPoints.map((point, index) => (
-            <div
+            <motion.div
               key={index}
-              className="bg-dark-800/50 backdrop-blur-sm rounded-xl p-8 border border-primary-500/20 hover:border-primary-500/40 transition-all duration-300 hover:scale-105"
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6, delay: index * 0.1 }}
+              whileHover={{ scale: 1.02, borderColor: 'rgba(59, 130, 246, 0.6)' }}
+              className="bg-dark-800/50 backdrop-blur-sm rounded-xl p-8 border border-primary-500/20 transition-all duration-300"
             >
-              <div className="text-primary-400 mb-4">{point.icon}</div>
+              <motion.div
+                className="text-primary-400 mb-4"
+                whileHover={{ scale: 1.1, rotate: 5 }}
+                transition={{ duration: 0.2 }}
+              >
+                {point.icon}
+              </motion.div>
               <h3 className="text-2xl font-bold text-white mb-3">{point.title}</h3>
               <p className="text-gray-400 leading-relaxed">{point.description}</p>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
