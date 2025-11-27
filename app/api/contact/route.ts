@@ -1,4 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
+
+const sesClient = new SESClient({
+  region: process.env.AWS_DEFAULT_REGION || 'us-east-2',
+  credentials: {
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID!,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY!,
+  },
+});
 
 export async function POST(request: NextRequest) {
   try {
@@ -13,7 +22,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Verify reCAPTCHA
+    // Verify reCAPTCHA v2
     const recaptchaSecret = process.env.RECAPTCHA_SECRET_KEY;
     if (recaptchaSecret && recaptchaToken) {
       const recaptchaResponse = await fetch(
@@ -29,12 +38,18 @@ export async function POST(request: NextRequest) {
 
       const recaptchaData = await recaptchaResponse.json();
 
-      if (!recaptchaData.success || recaptchaData.score < 0.5) {
+      // For v2 captcha, just check success (no score)
+      if (!recaptchaData.success) {
         return NextResponse.json(
           { error: 'reCAPTCHA verification failed' },
           { status: 400 }
         );
       }
+    } else if (!recaptchaToken) {
+      return NextResponse.json(
+        { error: 'Please complete the reCAPTCHA verification' },
+        { status: 400 }
+      );
     }
 
     // Send email notification using AWS SES
@@ -53,25 +68,34 @@ ${message || 'No message provided'}
 Timestamp: ${new Date().toISOString()}
       `.trim();
 
-      const sesResponse = await fetch('https://email.us-east-2.amazonaws.com/', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-          'Authorization': `AWS4-HMAC-SHA256 Credential=${process.env.AWS_ACCESS_KEY_ID}`,
+      const command = new SendEmailCommand({
+        Source: 'contact@untrapai.com',
+        Destination: {
+          ToAddresses: ['contact@untrapai.com'],
         },
-        body: new URLSearchParams({
-          'Action': 'SendEmail',
-          'Source': 'contact@untrapai.com',
-          'Destination.ToAddresses.member.1': 'contact@untrapai.com',
-          'Message.Subject.Data': `New Contact Form: ${company}`,
-          'Message.Body.Text.Data': emailBody,
-        }),
+        Message: {
+          Subject: {
+            Data: `New Contact Form: ${company}`,
+            Charset: 'UTF-8',
+          },
+          Body: {
+            Text: {
+              Data: emailBody,
+              Charset: 'UTF-8',
+            },
+          },
+        },
       });
 
+      await sesClient.send(command);
       console.log('Email sent successfully');
     } catch (emailError) {
       console.error('Failed to send email:', emailError);
-      // Continue even if email fails - we still want to log the submission
+      // Return error if email fails - this is critical
+      return NextResponse.json(
+        { error: 'Failed to send email. Please try again or email us directly.' },
+        { status: 500 }
+      );
     }
 
     // Log the submission
