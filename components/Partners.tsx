@@ -22,7 +22,7 @@ export default function Partners() {
     {
       name: 'Mars Discovery Company',
       logo: '/mars.jpg',
-      description: 'Technology Innovation Partner',
+      description: 'Start Up Partner',
     },
     {
       name: 'Innovation Factory',
