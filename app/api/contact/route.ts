@@ -22,7 +22,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Verify reCAPTCHA v2
+    // Verify reCAPTCHA v3
     const recaptchaSecret = process.env.RECAPTCHA_SECRET_KEY;
     if (recaptchaSecret && recaptchaToken) {
       const recaptchaResponse = await fetch(
@@ -38,8 +38,8 @@ export async function POST(request: NextRequest) {
 
       const recaptchaData = await recaptchaResponse.json();
 
-      // For v2 captcha, just check success (no score)
-      if (!recaptchaData.success) {
+      // For v3 captcha, check success and score (0.5 threshold)
+      if (!recaptchaData.success || (recaptchaData.score && recaptchaData.score < 0.5)) {
         return NextResponse.json(
           { error: 'reCAPTCHA verification failed' },
           { status: 400 }
@@ -47,7 +47,7 @@ export async function POST(request: NextRequest) {
       }
     } else if (!recaptchaToken) {
       return NextResponse.json(
-        { error: 'Please complete the reCAPTCHA verification' },
+        { error: 'reCAPTCHA verification failed' },
         { status: 400 }
       );
     }

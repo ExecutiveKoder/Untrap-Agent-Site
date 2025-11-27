@@ -21,10 +21,10 @@ export default function Contact() {
     setErrorMessage('');
 
     try {
-      // Get reCAPTCHA token
-      const recaptchaToken = recaptchaRef.current?.getValue();
+      // Get reCAPTCHA token (v3 invisible)
+      const recaptchaToken = await recaptchaRef.current?.executeAsync();
       if (!recaptchaToken) {
-        throw new Error('Please complete the reCAPTCHA verification');
+        throw new Error('reCAPTCHA verification failed');
       }
 
       // Submit form
@@ -171,14 +171,12 @@ export default function Contact() {
               </div>
             )}
 
-            {/* reCAPTCHA - centered above button */}
-            <div className="flex justify-center items-center w-full">
-              <ReCAPTCHA
-                ref={recaptchaRef}
-                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ''}
-                theme="dark"
-              />
-            </div>
+            {/* reCAPTCHA - invisible v3 */}
+            <ReCAPTCHA
+              ref={recaptchaRef}
+              size="invisible"
+              sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ''}
+            />
 
             {/* Submit Button */}
             <button
