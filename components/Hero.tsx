@@ -61,32 +61,7 @@ export default function Hero() {
         }}
       />
 
-      {/* Floating image on the right */}
-      <motion.div
-        className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 w-80 xl:w-96"
-        initial={{ opacity: 0, x: 50, scale: 0.9 }}
-        animate={{ opacity: 1, x: 0, scale: 1 }}
-        transition={{ duration: 0.8, delay: 0.4 }}
-        whileHover={{ scale: 1.05, rotate: 2 }}
-      >
-        <motion.div
-          className="relative"
-          animate={{ y: [0, -10, 0] }}
-          transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-        >
-          <img
-            src="/HiCeFZuouuaMgVQl.png"
-            alt="Untrap AI Platform"
-            className="w-full h-auto drop-shadow-2xl"
-            style={{
-              filter: 'drop-shadow(0 20px 60px rgba(59, 130, 246, 0.3))',
-              mixBlendMode: 'lighten'
-            }}
-          />
-        </motion.div>
-      </motion.div>
-
-      <div className="max-w-6xl mx-auto px-6 py-32 text-center relative z-10 lg:mr-96">
+      <div className="max-w-6xl mx-auto px-6 py-32 text-center relative z-10">
         <motion.div
           className="space-y-8"
           variants={containerVariants}
