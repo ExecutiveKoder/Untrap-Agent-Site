@@ -1,4 +1,5 @@
 import ScrollButton from './ScrollButton';
+import { UntrapLogo } from './untrap-logo';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -9,7 +10,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold text-white mb-4">Untrap</h3>
+            <div className="mb-4">
+              <UntrapLogo forceLight={false} />
+            </div>
             <p className="text-gray-400">
               AI-powered billing classification for MSPs. Stop losing money on out-of-scope work.
             </p>
