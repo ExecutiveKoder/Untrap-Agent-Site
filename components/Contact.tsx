@@ -192,18 +192,6 @@ export default function Contact() {
           </form>
         </div>
 
-        {/* Contact Info */}
-        <div className="mt-12 text-center">
-          <p className="text-gray-400 mb-4">
-            Prefer to email us directly?
-          </p>
-          <a
-            href="mailto:contact@untrapai.com"
-            className="text-primary-400 hover:text-primary-300 font-semibold text-lg transition-colors"
-          >
-            contact@untrapai.com
-          </a>
-        </div>
       </div>
     </section>
   );
