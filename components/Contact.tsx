@@ -21,8 +21,12 @@ export default function Contact() {
     setErrorMessage('');
 
     try {
-      // Get reCAPTCHA token (v3 invisible)
-      const recaptchaToken = await recaptchaRef.current?.executeAsync();
+      // Get reCAPTCHA token (v3 invisible) with timeout
+      const recaptchaToken = await Promise.race([
+        recaptchaRef.current?.executeAsync(),
+        new Promise((_, reject) => setTimeout(() => reject(new Error('reCAPTCHA timeout')), 10000))
+      ]);
+
       if (!recaptchaToken) {
         throw new Error('reCAPTCHA verification failed');
       }
