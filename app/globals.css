@@ -39,3 +39,10 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #60a5fa;
 }
+
+/* Center reCAPTCHA badge */
+.grecaptcha-badge {
+  margin: 0 auto !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
