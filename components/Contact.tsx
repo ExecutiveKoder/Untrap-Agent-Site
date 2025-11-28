@@ -172,11 +172,13 @@ export default function Contact() {
             )}
 
             {/* reCAPTCHA - invisible v3 */}
-            <ReCAPTCHA
-              ref={recaptchaRef}
-              size="invisible"
-              sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ''}
-            />
+            <div className="flex justify-center">
+              <ReCAPTCHA
+                ref={recaptchaRef}
+                size="invisible"
+                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ''}
+              />
+            </div>
 
             {/* Submit Button */}
             <button
