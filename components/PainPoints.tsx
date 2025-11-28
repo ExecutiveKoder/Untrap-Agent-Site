@@ -11,7 +11,7 @@ export default function PainPoints() {
         </svg>
       ),
       title: "Revenue Leakage",
-      description: "MSPs lose 15-25% of potential revenue by not billing for out-of-scope work. Every untracked ticket is money left on the table.",
+      description: "Approx 18% of tickets contain missed billables or gray areas that require human review. Every dollar found here goes straight into your pocket; the work has already been done.",
     },
     {
       icon: (
@@ -20,7 +20,7 @@ export default function PainPoints() {
         </svg>
       ),
       title: "Manual Review Time",
-      description: "Spending hours each month manually reviewing tickets, comparing against MSA agreements, and tracking billable work.",
+      description: "Just doesn't work. Only senior staff understand the intricacies of the client agreements, and they rarely have time for tedious work, let alone doing it each week.",
     },
     {
       icon: (
@@ -53,11 +53,9 @@ export default function PainPoints() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
-            The Hidden Cost of Manual Billing
+            Managed Services Leak Revenue In Many Places
           </h2>
-          <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            MSPs face constant challenges in identifying and billing for out-of-scope work
-          </p>
+          <p className="text-xl text-gray-400 max-w-5xl mx-auto">Frontline techs make mistakes and don't fully understand the nuances of your MSP agreements</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

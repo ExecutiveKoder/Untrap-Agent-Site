@@ -76,7 +76,7 @@ export default function Hero() {
               whileHover={{ scale: 1.05, borderColor: 'rgba(59, 130, 246, 0.4)' }}
               transition={{ duration: 0.2 }}
             >
-              AI-Powered MSP Billing
+              AI-Powered MSP Revenue Recovery
             </motion.span>
           </motion.div>
 
@@ -100,10 +100,11 @@ export default function Hero() {
           {/* Subheading */}
           <motion.p
             variants={itemVariants}
-            className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto leading-relaxed"
+            className="text-xl md:text-2xl text-gray-400 max-w-4xl mx-auto leading-relaxed"
           >
-            Automatically identify billable work with AI. Recover 15-25% of lost revenue
-            by classifying tickets against your MSA agreements in real-time.
+            Easily identify billable work miscategorized in your PSA. Approx 18%
+            of tickets have lost-revenue opportunities. We compare the notes
+            your techs have written against your MSA agreements and find you money.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -120,7 +121,7 @@ export default function Hero() {
                 href="/offer"
                 className="inline-block px-8 py-4 bg-gradient-to-r from-red-600 to-red-500 hover:from-red-500 hover:to-red-400 text-white font-semibold rounded-lg transition-all duration-200 shadow-xl hover:shadow-red-500/50 border-2 border-red-400/50"
               >
-                View Risk-Free Offer
+                Try Risk-Free
               </Link>
             </motion.div>
             <motion.div
@@ -154,29 +155,29 @@ export default function Hero() {
           {/* Stats */}
           <motion.div
             variants={itemVariants}
-            className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-16 max-w-4xl mx-auto"
+            className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-16 max-w-3xl mx-auto"
           >
             {[
               { value: '15-25%', label: 'Revenue Recovery' },
-              { value: '95%+', label: 'Classification Accuracy' },
-              { value: '10hrs/mo', label: 'Time Saved' }
+              { value: '92%', label: 'Classification Accuracy' },
+              { value: '8.4 hrs', label: 'Time Saved' }
             ].map((stat, index) => (
               <motion.div
                 key={stat.label}
                 custom={index}
                 variants={statVariants}
                 whileHover={{ y: -5, borderColor: 'rgba(59, 130, 246, 0.5)' }}
-                className="p-6 rounded-xl bg-slate-800 border border-slate-700 transition-all duration-300"
+                className="p-4 rounded-lg bg-slate-800 border border-slate-700 transition-all duration-300"
               >
                 <motion.div
-                  className="text-4xl font-bold text-blue-400 mb-2"
+                  className="text-3xl font-bold text-blue-400 mb-1"
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
                   transition={{ duration: 0.5, delay: index * 0.1 + 1.2, type: 'spring' }}
                 >
                   {stat.value}
                 </motion.div>
-                <div className="text-sm text-gray-400">{stat.label}</div>
+                <div className="text-xs text-gray-400">{stat.label}</div>
               </motion.div>
             ))}
           </motion.div>
