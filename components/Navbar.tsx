@@ -53,6 +53,7 @@ export default function Navbar() {
               { id: 'how-it-works', label: 'How it Works' },
               { id: 'benefits', label: 'Benefits' },
               { id: 'partners', label: 'Partners' },
+              { id: 'contact', label: 'Contact' },
             ].map((item) => (
               <button
                 key={item.id}
