@@ -14,8 +14,11 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const { name, email, company, phone, message, recaptchaToken } = body;
 
+    console.log('Contact form submission received:', { name, email, company });
+
     // Validate required fields
     if (!name || !email || !company) {
+      console.error('Missing required fields');
       return NextResponse.json(
         { error: 'Missing required fields' },
         { status: 400 }
@@ -51,6 +54,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Send email notification using AWS SES
+    console.log('Attempting to send email via SES');
     try {
       const emailBody = `
 New Contact Form Submission
@@ -85,13 +89,14 @@ Timestamp: ${new Date().toISOString()}
         },
       });
 
-      await sesClient.send(command);
-      console.log('Email sent successfully');
+      const result = await sesClient.send(command);
+      console.log('Email sent successfully:', result);
     } catch (emailError) {
       console.error('Failed to send email:', emailError);
+      console.error('Error details:', JSON.stringify(emailError, null, 2));
       // Return error if email fails - this is critical
       return NextResponse.json(
-        { error: 'Failed to send email. Please try again or email us directly.' },
+        { error: `Failed to send email: ${emailError instanceof Error ? emailError.message : 'Unknown error'}` },
         { status: 500 }
       );
     }
