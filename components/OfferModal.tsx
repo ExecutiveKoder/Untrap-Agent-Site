@@ -31,11 +31,8 @@ export default function OfferModal({ isOpen, onClose }: OfferModalProps) {
               LIMITED TIME OFFER
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Holiday Special: Risk-Free Billing Recovery
+              Risk-Free Billing Recovery
             </h2>
-            <p className="text-xl md:text-2xl text-primary-400 font-semibold">
-              We'll turn 7 days of tickets into new profit in under 14 days — or it's free.
-            </p>
           </div>
 
           <div className="bg-dark-900/50 rounded-xl p-6 mb-6 border border-primary-500/20">
@@ -47,10 +44,7 @@ export default function OfferModal({ isOpen, onClose }: OfferModalProps) {
           <div className="mb-8">
             <h3 className="text-2xl font-bold text-white mb-4">Risk-Free Guarantee:</h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-4">
-              We're so confident our AI Billing Agent will uncover missed billables that we'll let you try it risk-free:
-            </p>
-            <p className="text-primary-400 text-lg font-semibold">
-              If you don't see enough recoverable work to easily pay for the service, you don't owe us a cent.
+              We're so confident our AI Billing Agent will uncover missed billables that we'll let you try it risk-free.
             </p>
           </div>
 

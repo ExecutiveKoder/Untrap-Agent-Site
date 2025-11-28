@@ -122,7 +122,7 @@ export default function Hero() {
                 onClick={() => setIsOfferModalOpen(true)}
                 className="px-8 py-4 bg-gradient-to-r from-red-600 to-red-500 hover:from-red-500 hover:to-red-400 text-white font-semibold rounded-lg transition-all duration-200 shadow-xl hover:shadow-red-500/50 border-2 border-red-400/50"
               >
-                🎄 View Holiday Offer
+                View Risk-Free Offer
               </button>
             </motion.div>
             <motion.div
