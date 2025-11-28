@@ -29,7 +29,7 @@ export default function PainPoints() {
         </svg>
       ),
       title: "Contract Complexity",
-      description: "Managing different MSA agreements across multiple clients, each with unique inclusions and exclusions that are hard to track.",
+      description: "Fixed-fee agreements are complex, and many MSPs have multiple \"package agreements\" that vary by client. They aren't easy to interpret, especially for frontline techs.",
     },
     {
       icon: (
@@ -38,7 +38,7 @@ export default function PainPoints() {
         </svg>
       ),
       title: "Unbilled Out-of-Scope Work",
-      description: "Technicians complete work that's outside the MSA scope, but it never gets tracked or billed because no one catches it in time.",
+      description: "\"Scope creep\" is a total profit killer in fixed-fee agreements across all industries. MSP is among the least aware and most difficult to contain.",
     },
   ];
 
