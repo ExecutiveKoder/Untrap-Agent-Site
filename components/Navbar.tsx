@@ -16,6 +16,13 @@ export default function Navbar() {
   }, []);
 
   const scrollToSection = (id: string) => {
+    // If we're on a different page, navigate to homepage first
+    if (window.location.pathname !== '/') {
+      window.location.href = `/#${id}`;
+      return;
+    }
+
+    // If we're on homepage, scroll directly
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
