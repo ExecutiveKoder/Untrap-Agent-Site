@@ -4,6 +4,11 @@ frontend:
     preBuild:
       commands:
         - npm ci
+        - echo "SES_ACCESS_KEY_ID=$SES_ACCESS_KEY_ID" >> .env.production
+        - echo "SES_SECRET_ACCESS_KEY=$SES_SECRET_ACCESS_KEY" >> .env.production
+        - echo "SES_REGION=$SES_REGION" >> .env.production
+        - echo "RECAPTCHA_SECRET_KEY=$RECAPTCHA_SECRET_KEY" >> .env.production
+        - echo "NEXT_PUBLIC_RECAPTCHA_SITE_KEY=$NEXT_PUBLIC_RECAPTCHA_SITE_KEY" >> .env.production
     build:
       commands:
         - npm run build
