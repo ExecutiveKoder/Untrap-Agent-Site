@@ -40,12 +40,7 @@ body {
   background: #60a5fa;
 }
 
-/* Center reCAPTCHA badge above submit button */
+/* Hide reCAPTCHA badge (v3 invisible doesn't need to be shown) */
 .grecaptcha-badge {
-  width: 256px !important;
-  margin: 0 auto !important;
-  left: 50% !important;
-  right: auto !important;
-  transform: translateX(-50%) !important;
-  bottom: 85px !important;
+  visibility: hidden !important;
 }
