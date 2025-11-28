@@ -70,7 +70,7 @@ export default function OfferModal({ isOpen, onClose }: OfferModalProps) {
               </li>
               <li className="flex items-start">
                 <span className="text-primary-400 mr-3">•</span>
-                <span>Within 14 days, we show you exactly how much recoverable billing is sitting in your PSA.</span>
+                <span>Within the first 14 days, we show you exactly how much recoverable billing is sitting in your PSA.</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary-400 mr-3">•</span>
