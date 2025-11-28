@@ -187,7 +187,7 @@ export default function Contact() {
               disabled={status === 'loading'}
               className="w-full bg-primary-500 hover:bg-primary-600 disabled:bg-primary-500/50 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 shadow-xl hover:shadow-primary-500/50 disabled:cursor-not-allowed"
             >
-              {status === 'loading' ? 'Submitting...' : 'Book a Demo'}
+              {status === 'loading' ? 'Submitting...' : "Let's Chat"}
             </button>
           </form>
         </div>
