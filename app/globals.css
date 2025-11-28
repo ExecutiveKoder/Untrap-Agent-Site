@@ -40,9 +40,12 @@ body {
   background: #60a5fa;
 }
 
-/* Center reCAPTCHA badge */
+/* Center reCAPTCHA badge above submit button */
 .grecaptcha-badge {
+  width: 256px !important;
   margin: 0 auto !important;
   left: 50% !important;
+  right: auto !important;
   transform: translateX(-50%) !important;
+  bottom: 85px !important;
 }
