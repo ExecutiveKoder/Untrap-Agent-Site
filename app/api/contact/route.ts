@@ -1,15 +1,25 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
 
-const sesClient = new SESClient({
-  region: process.env.SES_REGION || process.env.AWS_DEFAULT_REGION || 'us-east-2',
-  credentials: {
-    accessKeyId: process.env.SES_ACCESS_KEY_ID || process.env.AWS_ACCESS_KEY_ID!,
-    secretAccessKey: process.env.SES_SECRET_ACCESS_KEY || process.env.AWS_SECRET_ACCESS_KEY!,
-  },
-});
-
 export async function POST(request: NextRequest) {
+  // Initialize SES client inside the handler to capture errors
+  let sesClient;
+  try {
+    sesClient = new SESClient({
+      region: process.env.SES_REGION || process.env.AWS_DEFAULT_REGION || 'us-east-2',
+      credentials: {
+        accessKeyId: process.env.SES_ACCESS_KEY_ID || process.env.AWS_ACCESS_KEY_ID!,
+        secretAccessKey: process.env.SES_SECRET_ACCESS_KEY || process.env.AWS_SECRET_ACCESS_KEY!,
+      },
+    });
+    console.log('SES client initialized successfully');
+  } catch (error) {
+    console.error('Failed to initialize SES client:', error);
+    return NextResponse.json(
+      { error: 'Email service configuration error' },
+      { status: 500 }
+    );
+  }
   try {
     const body = await request.json();
     const { name, email, company, phone, message, recaptchaToken } = body;
@@ -117,8 +127,9 @@ Timestamp: ${new Date().toISOString()}
     );
   } catch (error) {
     console.error('Contact form error:', error);
+    console.error('Error stack:', error instanceof Error ? error.stack : 'No stack');
     return NextResponse.json(
-      { error: 'Internal server error' },
+      { error: `Internal server error: ${error instanceof Error ? error.message : 'Unknown error'}` },
       { status: 500 }
     );
   }
