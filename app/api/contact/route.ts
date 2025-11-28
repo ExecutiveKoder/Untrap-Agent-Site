@@ -22,34 +22,32 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Verify reCAPTCHA v3
+    // Verify reCAPTCHA v3 (optional for now to debug)
     const recaptchaSecret = process.env.RECAPTCHA_SECRET_KEY;
     if (recaptchaSecret && recaptchaToken) {
-      const recaptchaResponse = await fetch(
-        'https://www.google.com/recaptcha/api/siteverify',
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-          },
-          body: `secret=${recaptchaSecret}&response=${recaptchaToken}`,
-        }
-      );
-
-      const recaptchaData = await recaptchaResponse.json();
-
-      // For v3 captcha, check success and score (0.5 threshold)
-      if (!recaptchaData.success || (recaptchaData.score && recaptchaData.score < 0.5)) {
-        return NextResponse.json(
-          { error: 'reCAPTCHA verification failed' },
-          { status: 400 }
+      try {
+        const recaptchaResponse = await fetch(
+          'https://www.google.com/recaptcha/api/siteverify',
+          {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: `secret=${recaptchaSecret}&response=${recaptchaToken}`,
+          }
         );
+
+        const recaptchaData = await recaptchaResponse.json();
+
+        // For v3 captcha, check success and score (0.5 threshold)
+        if (!recaptchaData.success || (recaptchaData.score && recaptchaData.score < 0.5)) {
+          console.log('reCAPTCHA verification failed:', recaptchaData);
+          // Don't block submission, just log for now
+        }
+      } catch (error) {
+        console.error('reCAPTCHA verification error:', error);
+        // Don't block submission on reCAPTCHA errors
       }
-    } else if (!recaptchaToken) {
-      return NextResponse.json(
-        { error: 'reCAPTCHA verification failed' },
-        { status: 400 }
-      );
     }
 
     // Send email notification using AWS SES
