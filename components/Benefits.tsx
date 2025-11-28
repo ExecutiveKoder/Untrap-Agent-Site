@@ -116,22 +116,22 @@ export default function Benefits() {
             </div>
             <div className="bg-dark-900/50 rounded-xl p-6 border border-primary-500/30">
               <div className="text-center mb-4">
-                <div className="text-sm text-gray-400 mb-2">Example: Mid-size MSP</div>
-                <div className="text-4xl font-bold text-white mb-1">$500K</div>
+                <div className="text-sm text-gray-400 mb-2">MSP Example</div>
+                <div className="text-4xl font-bold text-white mb-1">$2M</div>
                 <div className="text-gray-400">Annual Revenue</div>
               </div>
               <div className="border-t border-primary-500/20 pt-4 space-y-2">
                 <div className="flex justify-between text-gray-300">
-                  <span>Unbilled work (18%)</span>
-                  <span className="font-semibold text-orange-400">$90K</span>
+                  <span>Unbilled Work (18%)</span>
+                  <span className="font-semibold text-orange-400">$74K</span>
                 </div>
                 <div className="flex justify-between text-gray-300">
-                  <span>Time saved value</span>
+                  <span>Time Saved Value</span>
                   <span className="font-semibold text-orange-400">$12K</span>
                 </div>
-                <div className="border-t border-primary-500/20 pt-2 mt-2 flex justify-between text-lg font-bold">
-                  <span className="text-white">Potential Recovery</span>
-                  <span className="text-primary-400">$102K/yr</span>
+                <div className="border-t border-primary-500/20 pt-2 mt-2 flex flex-col items-center">
+                  <span className="text-white font-bold text-lg mb-1">Potential Recovery</span>
+                  <span className="text-primary-400 font-bold text-2xl">$86K/yr straight to the bottom line</span>
                 </div>
               </div>
             </div>
