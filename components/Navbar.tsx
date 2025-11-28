@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { UntrapLogo } from './untrap-logo';
 
 export default function Navbar() {
@@ -30,12 +31,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <button
-            onClick={() => scrollToSection('hero')}
+          <Link
+            href="/"
             className="hover:opacity-80 transition-opacity"
           >
             <UntrapLogo forceLight={false} />
-          </button>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
