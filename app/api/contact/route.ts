@@ -2,14 +2,35 @@ import { NextRequest, NextResponse } from 'next/server';
 import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
 
 export async function POST(request: NextRequest) {
-  // Initialize SES client inside the handler to capture errors
+  // Validate and get credentials
+  const accessKeyId = process.env.SES_ACCESS_KEY_ID || process.env.AWS_ACCESS_KEY_ID;
+  const secretAccessKey = process.env.SES_SECRET_ACCESS_KEY || process.env.AWS_SECRET_ACCESS_KEY;
+  const region = process.env.SES_REGION || process.env.AWS_DEFAULT_REGION || 'us-east-2';
+
+  console.log('Environment check:', {
+    hasAccessKeyId: !!accessKeyId,
+    accessKeyIdLength: accessKeyId?.length || 0,
+    hasSecretAccessKey: !!secretAccessKey,
+    secretAccessKeyLength: secretAccessKey?.length || 0,
+    region,
+  });
+
+  if (!accessKeyId || !secretAccessKey) {
+    console.error('Missing AWS credentials');
+    return NextResponse.json(
+      { error: 'Email service configuration error: Missing credentials' },
+      { status: 500 }
+    );
+  }
+
+  // Initialize SES client
   let sesClient;
   try {
     sesClient = new SESClient({
-      region: process.env.SES_REGION || process.env.AWS_DEFAULT_REGION || 'us-east-2',
+      region,
       credentials: {
-        accessKeyId: process.env.SES_ACCESS_KEY_ID || process.env.AWS_ACCESS_KEY_ID!,
-        secretAccessKey: process.env.SES_SECRET_ACCESS_KEY || process.env.AWS_SECRET_ACCESS_KEY!,
+        accessKeyId,
+        secretAccessKey,
       },
     });
     console.log('SES client initialized successfully');
