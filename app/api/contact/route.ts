@@ -71,7 +71,7 @@ Timestamp: ${new Date().toISOString()}
       const command = new SendEmailCommand({
         Source: 'contact@untrapai.com',
         Destination: {
-          ToAddresses: ['contact@untrapai.com'],
+          ToAddresses: ['sats@getuntrap.com'],
         },
         Message: {
           Subject: {
