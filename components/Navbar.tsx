@@ -62,12 +62,14 @@ export default function Navbar() {
                 {item.label}
               </button>
             ))}
-            <button
-              onClick={() => scrollToSection('contact')}
+            <a
+              href="https://calendly.com/dave-untrap/15-minute-call"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-2 bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium rounded-lg transition-all duration-200"
             >
               Book Demo
-            </button>
+            </a>
           </div>
         </div>
       </div>

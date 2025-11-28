@@ -128,12 +128,14 @@ export default function Hero() {
               whileTap={{ scale: 0.95 }}
               transition={{ duration: 0.2 }}
             >
-              <ScrollButton
-                targetId="contact"
-                className="px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg transition-all duration-200"
+              <a
+                href="https://calendly.com/dave-untrap/15-minute-call"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg transition-all duration-200"
               >
                 Book a Demo →
-              </ScrollButton>
+              </a>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.05 }}
