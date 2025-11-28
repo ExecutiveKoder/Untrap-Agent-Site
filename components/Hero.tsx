@@ -1,9 +1,12 @@
 'use client';
 
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import ScrollButton from './ScrollButton';
+import OfferModal from './OfferModal';
 
 export default function Hero() {
+  const [isOfferModalOpen, setIsOfferModalOpen] = useState(false);
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -115,6 +118,18 @@ export default function Hero() {
               whileTap={{ scale: 0.95 }}
               transition={{ duration: 0.2 }}
             >
+              <button
+                onClick={() => setIsOfferModalOpen(true)}
+                className="px-8 py-4 bg-gradient-to-r from-red-600 to-red-500 hover:from-red-500 hover:to-red-400 text-white font-semibold rounded-lg transition-all duration-200 shadow-xl hover:shadow-red-500/50 border-2 border-red-400/50"
+              >
+                🎄 View Holiday Offer
+              </button>
+            </motion.div>
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ duration: 0.2 }}
+            >
               <ScrollButton
                 targetId="contact"
                 className="px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg transition-all duration-200"
@@ -167,6 +182,9 @@ export default function Hero() {
           </motion.div>
         </motion.div>
       </div>
+
+      {/* Offer Modal */}
+      <OfferModal isOpen={isOfferModalOpen} onClose={() => setIsOfferModalOpen(false)} />
     </section>
   );
 }
