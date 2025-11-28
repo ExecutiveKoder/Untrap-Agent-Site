@@ -62,7 +62,7 @@ export default function OfferModal({ isOpen, onClose }: OfferModalProps) {
           </div>
 
           <div className="mb-8">
-            <h3 className="text-2xl font-bold text-white mb-4">I'd like to run a simple test for you:</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">We'd like to run a simple test for you:</h3>
             <ul className="space-y-3 text-gray-300 text-lg">
               <li className="flex items-start">
                 <span className="text-primary-400 mr-3">•</span>
